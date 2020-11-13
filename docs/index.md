@@ -3,7 +3,7 @@ SQLDelight generates typesafe kotlin APIs from your SQL statements. It verifies 
 SQLDelight understands your existing SQL schema.
 
 ```sql
-CREATE TABLE hockey_player (
+CREATE TABLE soccer_player (
   id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
   name TEXT NOT NULL,
   number INTEGER NOT NULL
@@ -23,16 +23,16 @@ SQLite
 * [Android](android_sqlite)
 * [Native (iOS, macOS, or Windows)](native_sqlite)
 * [JVM](jvm_sqlite)
-* Javascript (Work In Progress)
+* Javascript (android,c+)
 * [Multiplatform](multiplatform_sqlite)
 
-[MySQL (JVM)](jvm_mysql)
+[MySQL (JVM)](jvm_mysql)(Android)
 
-[PostgreSQL (JVM)](jvm_postgresql) (Experimental)
+[PostgreSQL (JVM)](jvm_postgresql) (Experimental)(android)
 
-[HSQL/H2 (JVM)](jvm_h2) (Experimental)
+[HSQL/H2 (JVM)](jvm_h2) (Experimental)(android)
 
-## Snapshots
+## Snapshots ## 
 
 Snapshots of the development version (including the IDE plugin zip) are available in
 [Sonatype's `snapshots` repository](https://oss.sonatype.org/content/repositories/snapshots/).
